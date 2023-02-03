@@ -1,31 +1,17 @@
 
 /* GENERAL */
-body {
-    background: url("/images/jaguar_perfil_bw.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-body h1, .p_header {
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
-}
-
-
 .form_container {
     width: 80%;
     margin: 0 auto;
     position: relative;
     padding: 3em 0;
     height: 36em;
-    background-color: rgba(40, 100, 97, .2);
     color: white;
 }
 
 .main_field {
     margin: 0 15em;
-    height: 36em;
+    height: 37em;
     border-radius: 1em;
     border: none;
     background-color: rgba(40, 100, 97,.9);
@@ -52,6 +38,7 @@ input, textarea {
     text-align: left;
     margin-left: 1em;
     margin-top: 0.7em;
+    font-family: 'Cinzel Decorative', cursive;
 }
 .user_info input {
     width: 80%;
@@ -72,6 +59,7 @@ input, textarea {
     box-shadow: 1px 1px 5px rgba(0,0,0,.4);
     border: none;
     background-color: rgba(151,230,132,.3);
+    font-family: 'Cinzel Decorative', cursive;
 }
 .check_field p {
     text-align: center;
@@ -83,11 +71,13 @@ input, textarea {
 
 .check_yes_container {
     float: left;
-    margin-left: 1em;
+    margin-left: 1.7em;
+    font-size: 0.8em;
 }
 .check_no_container {
     float: right;
-    margin-right: 1em;
+    margin-right: 1.7em;
+    font-size: 0.8em;
 }
 
 /* TEXTAREA */
@@ -100,6 +90,7 @@ input, textarea {
     margin-top: 1.5em;
     margin-bottom: 0.4em;
     letter-spacing: 0.1em;
+    font-family: 'Cinzel Decorative', cursive;
 }
 .textarea_container textarea {
     width: 97.5%;
@@ -122,6 +113,8 @@ input, textarea {
     box-shadow: 2px 2px 10px rgba(0,0,0,.4);
     border-radius: 1em;
     font-size: 1em;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
 }
 .form_button:hover {
     background-color: rgba(151,230,132,.7);
