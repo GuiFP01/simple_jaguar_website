@@ -1,0 +1,67 @@
+
+.link_page_container {
+    width: 80%;
+    margin: 0px auto;
+    position: relative;
+    padding: 3em 0;
+    height: 36em;
+    background-color: rgba(40, 100, 97, .2);
+}
+
+.list_links {
+    position: absolute;
+    z-index: 1;
+    left: 23%;
+    top: 55%;
+    transform: translate(-23%, -55%);
+    margin-top: 1.3em;
+}
+.list_links ul {
+    list-style-type: none;
+    font-size: 1.5em;
+    width: 100%;
+}
+.list_links li {
+    margin-bottom: 2em;
+    border: none;
+    background-color: rgba(151,230,132,.3);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    border-radius: 1em;
+    padding: 0.8em;
+    text-align: center;
+}
+.list_links li::before {
+    background-image: url("/images/jaguar_jumping-icon.png");
+    background-repeat: no-repeat;
+    background-size: 2.5em 2.5em;
+    position: absolute;
+    width: 2.5em;
+    height: 2.5em;
+    content:"";
+    left: -3em;
+    transform: scaleX(-1);
+}
+.list_links li:hover {
+    background-color: rgba(40, 100, 97, .9);
+    box-shadow: 5px 5px 10px yellowgreen;
+}
+
+.list_links a {
+    text-decoration: none;
+    color: black;
+}
+.list_links a:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.link_page_jaguar {
+    position: absolute;
+    left: 35em;
+    top: -0.7em;
+    z-index: 0;
+}
+.link_page_jaguar img {
+    max-width: 40em;
+    opacity: 0.9;
+}
